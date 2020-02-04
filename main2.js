@@ -1054,7 +1054,7 @@ chrome.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
       if (request.message === "clicked_browser_action") {
           initiate();
-          console.log("wus goo2d");
+          console.log("wus good");
       }
   }
 );
